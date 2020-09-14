@@ -1,2 +1,2 @@
 # HTML-CSS
-SoftUni HTML &amp; CSS Course - January 2020
+SoftUni HTML &amp; CSS Course - September 2020
