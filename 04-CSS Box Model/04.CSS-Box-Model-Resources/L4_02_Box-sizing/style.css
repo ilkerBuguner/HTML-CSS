@@ -1,0 +1,15 @@
+section {
+    width: 250px;
+    height: 250px;
+    border-style: dotted; 
+    border-color: green;
+    border-width: 4px;
+}
+
+p {
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-width: 5px;
+    padding: 20px;
+}
