@@ -1,15 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    box-sizing: inherit;
+}
+
 section {
     width: 250px;
     height: 250px;
-    border-style: dotted; 
-    border-color: green;
-    border-width: 4px;
+    border: 3px dashed lightgreen;
+    text-align: center;
+    margin: 12rem auto;
+    box-sizing: inherit;
 }
 
-p {
-    width: 100%;
-    border: solid;
-    border-color: blue;
-    border-width: 5px;
+h1{
+    margin: 2rem;
+}
+
+p{
+    border: 3px solid blue;
     padding: 20px;
+    width: 100%;
 }
