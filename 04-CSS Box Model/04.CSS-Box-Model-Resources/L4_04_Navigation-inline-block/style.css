@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    display: inline-block;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: #1E9F7E;
+}
+
+body {
+    max-width: 90%;
+    margin: auto;
+}

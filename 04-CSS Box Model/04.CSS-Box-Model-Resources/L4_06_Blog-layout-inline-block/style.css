@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body, article, section{
+    box-sizing: inherit;
+    background-color: rgb(238, 238, 238);
+}
+
+article{
+    padding: 0 2rem;
+    max-width: 800px;
+    color: rgb(51, 51, 51) ;
+    display: inline-block;
+ }
+
+img{
+    width: 70%;
+    height: auto;
+}
+
+aside {
+    vertical-align: top;
+    display: inline-block;
+    max-width: 30%;
+}
