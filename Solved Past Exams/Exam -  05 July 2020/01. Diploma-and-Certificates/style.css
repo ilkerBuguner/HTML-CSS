@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Montserrat&display=swap');
+
+.certificates {
+    font-family: 'Lato', sans-serif;
+    background: #306085;
+    color: #CFDAE2;
+    margin: 50px 0px;
+    max-width: 1200px;
+    padding: 50px;
+}
+
+.certificates-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.certificates-content,
+.certificates-images {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.certificates-content {
+    width: 60%;
+    margin-right: 15px;
+}
+
+.certificates-content::before {
+    content: '';
+    background: url(./images/dots.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 224px;
+}
+
+.certificates-images {
+    width: 38%;
+}
+
+.image{
+    display: inline-block;
+    width: 45%;
+}
+
+.image:nth-child(2)::after {
+    content: '';
+    background: url(./images/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -230px;
+    margin-top: -16px;
+    z-index: 0;
+}
+
+.image:nth-child(1)::after {
+    transform: rotate(90deg);
+    content: '';
+    background: url(./images/dots.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -169px;
+    margin-top: -47px;
+}
+
+
+.image img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.certificates-text-bottom {
+    font-weight: lighter;
+    font-style: italic;
+}
