@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&display=swap');
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gelasio', serif;
+}
+
+.travel-blog-header {
+    background: url(./images/map.jpg);
+    background-size: cover;
+}
+
+.travel-blog-logo,
+.login.login,
+.fa-search {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.travel-blog-logo {
+    max-width: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.login {
+    color: #CACACA;
+    margin-left: 1320px;
+}
+
+.fa-search {
+    color: #CACACA;
+    margin-left: 20px;
+}
+
+.travel-blog-title {
+    color: white;
+    margin-top: 230px;
+    font-size: 66px;
+    text-align: center;
+    text-shadow: 3px 2px 9px rgba(154, 150, 150, 1);
+    margin-bottom: 10px;
+}
+
+.travel-blog-start-button {
+    margin-left: 699px;
+    background-color: #146594;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 150px;
+    font-size: 16px;
+}
+
+.articles {
+    background-color: #E1E1E1;
+    padding: 20px 200px;
+}
+
+.articles-heading {
+    margin-bottom: 12px;
+    color: #53595C;
+}
+
+.first-article,
+.second-article,
+.third-article {
+    display: inline-block;
+}
+
+.first-article {
+    width: 35%;
+    background: url(./images/packing.jpg);
+    background-size: cover;
+    padding-bottom: 800px;
+}
+
+.first-article-title {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 3px 2px 9px rgba(154, 150, 150, 1);
+}
+
+.second-article {
+    position: absolute;
+    left: 39%;
+    width: 50%;
+    background: url(./images/planning.jpg);
+    background-size: cover;
+    padding-bottom: 400px;
+}
+
+.second-article-title {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px 9px rgba(154, 150, 150, 1);
+}
+
+.third-article {
+    position: absolute;
+    top: 149%;
+    left: 39%;
+    width: 50%;
+    background: url(./images/budget.jpg);
+    background-size: cover;
+    padding-bottom: 453px;
+}
+
+.third-article-title {
+    position: absolute;
+    left: 3%;
+    top: 85%;
+    color: white;
+    text-align: left;
+    text-shadow: 3px 2px 9px rgba(154, 150, 150, 1);
+}
+
+.travel-blog-footer {
+    background-color: #8C8C8C;
+}
+
+.travel-blog-footer-section {
+    padding: 30px 70px;
+}
+
+.footer-ul {
+    max-width: 25%;
+    display: inline-block;
+    margin-right: 240px;
+}
+
+.footer-ul:nth-child(3) {
+    margin-right: 0;
+}
+
+.footer-ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 8px;
+    padding-left: 10px;
+    border-right: 1px solid #C9C9C9;
+}
+
+.second {
+    max-width: 30%;
+}
+
+.footer-ul li:nth-child(1) {
+    padding-left: 0;
+}
+
+.footer-ul li:nth-child(4) {
+    border-right: none;
+}
+
+.footer-ul li a {
+    text-decoration: none;
+    color: #C9C9C9;
+}
+
+.third li:nth-child(3) {
+    border-right: none;
+}
