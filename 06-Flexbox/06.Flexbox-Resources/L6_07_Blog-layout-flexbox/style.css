@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 30px 150px;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 1 1 70%;
+}
+
+header {
+    display: flex;
+    flex: 1 1 100%;
+    border-bottom: 2px solid;
+}
+
+.first-img {
+    float: right;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.second-img {
+    float: left;
+    margin-right: 1rem;
+}
+
+aside {
+    flex: 1 1 30%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.site-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    padding: 8px;
+    margin: 10px;
+}
+
+
+blockquote {
+    width: 40%;
+    float: right;
+    border-left: 5px solid #DDDDDD;
+    padding-left: 12px;
+    font-family: Georgia, serif;
+}
+
+blockquote cite {
+    float: right;
+}
+
+.before-blockquote {
+    margin-bottom: 30px;
+}
+
+.after-blockquote {
+    margin-top: 30px;
+    clear: both;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
