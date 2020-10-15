@@ -16,14 +16,10 @@ main {
     margin-top : 50px
 }
 
-hr {
-    border: 2px solid rgb(0, 0, 0);
-    background-color: black;
-}
-
 header {
     display: flex;
     padding: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 header h1 {

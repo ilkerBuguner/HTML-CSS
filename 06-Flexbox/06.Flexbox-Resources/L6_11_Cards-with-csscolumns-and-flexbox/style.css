@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 2rem 10rem;
+}
+
+.cards-layout-masonry {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+}
+
+
+
+.cards-layout-flex {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+}
+
+.cards-layout h2 {
+    margin: 20px;
+}
+
+.card, .media, img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 0 0 30%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.card p, .card h6 {
+    padding: 30px;
+}
+
+.card p {
+    flex-grow: 1;
+}
+
+footer {
+    border-top: 2px solid lightgray;
+}
+
+.card img {
+    width: 100%;
+}
