@@ -1,0 +1,218 @@
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gelasio', serif;
+}
+
+.cooking-blog-header {
+    background-color: #E6E3DE;
+    padding: 18px;
+}
+
+.cooking-blog-header h2 {
+    display: inline-block;
+    width: 90px;
+    color: #554938;
+    margin-right: 470px;
+}
+
+.cooking-blog-nav {
+    display: inline-block;
+    margin-right: 440px;
+}
+
+.cooking-blog-nav ul {
+    display: inline-block;
+}
+
+.cooking-blog-nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.cooking-blog-nav ul li a {
+    text-decoration: none;
+    color: #554938;
+}
+
+.cooking-blog-header button {
+    padding: 6px 10px;
+    margin-right: 30px;
+}
+
+.button {
+    background-color: #554938;
+    color: white;
+}
+
+.cooking-blog-search {
+    background: url(./Media/craving.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+}
+
+.cooking-blog-search h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.search-input-wrapper {
+    font-display: inline-block;
+    width: 300px;
+    background-color: white;
+    opacity: 0.5;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 610px;
+}
+
+.search-input-wrapper input {
+    border: none;
+}
+
+.search-input-wrapper input:focus {
+    outline: none;
+}
+
+.cooking-block-main-content {
+    padding: 70px 100px;
+}
+
+
+.cooking-block-main-content {
+    background: url(./Media/background.jpg);
+    background-size: cover;
+}
+
+.party-favourites {
+    display: flex;
+}
+
+.party-favourites-image-wrapper {
+    flex-basis: 60%;
+}
+
+.party-favourites-image-wrapper img,
+.royal-icing-image-wrapper img {
+    width: 100%;
+}
+
+.party-favourites-content,
+.royal-icing-content {
+    flex-basis: 40%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #E6E3DE;
+}
+
+.party-favourites-content h2,
+.royal-icing-content h2 {
+    margin-top: 170px;
+    font-size: 33px;
+}
+
+.party-favourites-content h3,
+.royal-icing-content h3 {
+    font-size: 25px;
+}
+
+.party-favourites-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.royal-icing {
+    display: flex;
+    margin-top: 50px;
+}
+
+.royal-icing-image-wrapper {
+    flex-basis: 60%;
+}
+
+.cookie-toolbox h2 {
+    margin-top: 30px;
+    display: inline-block;
+    color: #554938;
+    font-size: 28px;
+    margin-left: 492px;
+    padding: 10px 55px;
+    background-color: #E6E3DE;
+    opacity: 0.8;
+}
+
+.toolboxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.toolbox {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+.toolbox img {
+    width: 100%;
+}
+
+.toolbox p {
+    color: #554938;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 55px;
+    background-color: #E6E3DE;
+    opacity: 0.8;
+}
+
+.cookie-toolbox button {
+    background-color: #D84A32;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 120px;
+    margin-top: 30px;
+    margin-left: 503px;
+}
+
+.cooking-blog-footer {
+    background-color:  #E6E3DE;
+    opacity: 0.8;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    width: 115%;
+    position: relative;
+    left: -99px;
+    top: 70px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 30px 0px;
+    margin-left: 6px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #554938;
+    padding-right: 6px;
+}
+
+.border-right {
+    border-right: 1px solid #554938;
+}
