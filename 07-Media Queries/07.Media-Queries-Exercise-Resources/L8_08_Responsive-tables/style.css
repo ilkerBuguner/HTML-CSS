@@ -1,0 +1,71 @@
+@import url(./reset.css);
+
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: #EEEEEE;
+}
+
+table{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: 1px solid lightgray
+}
+
+thead {
+    background-color: #333333;
+    color: white;
+}
+
+.first-row {
+    background-color: #F1F1F1;
+}
+
+.second-row {
+    background-color: white;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 7px;
+}
+
+@media all and (max-width: 600px) {
+    thead {
+        display: none;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    td {
+        border: 1px solid lightgray;
+    }
+
+    .first-name::before {
+        display: inline;
+        content: 'First Name';
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    .last-name::before {
+        display: inline;
+        content: 'Last Name';
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    .job-title::before {
+        display: inline;
+        content: 'Job Name';
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+}
