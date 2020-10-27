@@ -1,0 +1,47 @@
+@media all and (max-width: 1236px) {
+    main {
+        padding-left: 13%;
+    }
+    
+    main ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .row_articles {
+        display: block;
+    }
+
+    .big_article {
+        display: block;
+        width: 15em;
+        height: 16em;
+        margin: 0 10px 10px 0;
+    }
+
+    .big_article .article .article_text h3 {
+        font-size: 1em;
+    }
+
+    .big_article .article {
+        width: 14.5em;
+        height: 16em;
+    }
+}
+
+@media all and (max-width: 768px) {
+    main,
+    main ul,
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 10px;
+    }
+}
