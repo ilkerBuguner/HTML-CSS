@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url(https://use.fontawesome.com/releases/v5.8.2/css/all.css);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.certificates-header {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px -6px 20px -3px #000000;
+    padding: 12px 0;
+    background-color: white;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+}
+
+.certificates-nav ul {
+    display: flex;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.certificates-nav ul li {
+    list-style: none;
+    padding: 0 8px;
+    padding-top: 1px;
+}
+
+.certificates-nav ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #585B71;
+}
+
+.certificates-logo-wrapper {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.certificates-nav ul button {
+    margin-left: 12px;
+    background-color: #9B5DC6;
+    font-weight: bold;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 17px;
+    border: none;
+}
+
+.diplomas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.diplomas-content {
+    flex-basis: 50%;
+}
+
+.diplomas-content h2 {
+    color: #54546D;
+    font-weight: normal;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.diplomas-description {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.p-light {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.diplomas-image-wrapper {
+    flex-basis: 30%;
+    margin-right: 20px;
+}
+
+.diplomas-image-wrapper img {
+    width: 100%;
+}
+
+.diplomas-image-award {
+    position: absolute;
+    background-color: #54546D;
+    top: -122px;
+    right: 10px;
+    padding: 9% 14%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.diplomas-image-award img {
+    position: relative;
+    left: 132px;
+}
+
+.certificates {
+    display: flex;
+    background-color: #14162B;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.certificates-content {
+    flex-basis: 60%;
+}
+
+.certificates-content h2 {
+    margin-bottom: 23px;
+}
+
+.certificates-image-wrapper {
+    flex-basis: 25%;
+}
+
+.certificates-image-wrapper img {
+    position: relative;
+    width: 80%;
+    top: 50px;
+    left: 20px;
+}
+
+.careers {
+    display: flex;
+    padding: 50px 80px;
+}
+
+.careers-image-wrapper {
+    flex-basis: 25%;
+}
+
+.careers-content {
+    flex-basis: 65%;
+    margin-left: 40px;
+}
+
+.careers-content h2 {
+    color: #54546D;
+    margin-bottom: 30px;
+}
+
+.careers-content p {
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.careers-content button {
+    color: #9C6ACC;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 40px;
+    border: 2px solid #9C6ACC;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.careers-content button:hover {
+    color: white;
+    background-color: #9C6ACC;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    background-color: #2C2C3A;
+    padding-bottom: 35px;
+}
+
+.h3 {
+    color: #9B5DC6;
+    padding-bottom: 7px;
+}
+
+.footer-ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-div {
+    margin-bottom: 20px;
+}
+
+.icons-nav {
+    color: white;
+}
+
+.icons-nav p {
+    padding-top: 10px;
+}
+
+i {
+    width: 45px;
+    font-size: 22px;
+    padding-bottom: 18px;
+}
