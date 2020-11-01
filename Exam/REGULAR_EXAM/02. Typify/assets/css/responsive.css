@@ -1,0 +1,80 @@
+@media all and (max-width: 600px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .grid-form {
+        flex-direction: column;
+    }
+    
+    .banner {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .banner h2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .banner .button.special {
+        margin-left: 20px;
+        padding: 0px 220px
+    }
+
+    .banner p {
+        text-align: center;
+    }
+
+    .major h2 {
+        display: block;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .wrapper .inner {
+        margin: 0;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 85%;
+    }
+
+    .grid-form .form-control {
+        width: 85%;
+    }
+
+    .grid-form .actions {
+        width: 85%;
+    }
+
+    input[type="submit"], .button {
+        margin-left: 5px;
+        padding: 0px 195px
+    }
+
+    section.special {
+        text-align: left;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper.style2 label {
+        text-align: center;
+    }
+
+    .wrapper.style2 header h2 {
+        margin-left: 170px;
+    }
+}
